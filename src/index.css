@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("/public/images/blue-ice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
